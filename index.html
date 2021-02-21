@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>むらんち</title>
+  <meta content="食や地方について楽しく学べるコミュニティ、むらんちです。みんなで楽しみながら、村の役に立てるような団体を目指しています。">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="https://kit.fontawesome.com/e7ff59a212.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+                      <!-- ヘッダー -->
+  <header>
+    <nav class="container header-flex">
+          <a href="#top" class="header-logo">
+            <img src=image/mulunchlogo2.png alt="ヘッダーのロゴ">
+          </a>
+          <a href="#concept" class="header-align">コンセプト</a>
+          <a href="#activity"><p><span class="mulunch-font">むらんち</span></p><p>の活動</p></a>
+          <a href="#topics" class="header-align">トピックス</a>
+          <a href="#village"><p><span class="mulunch-font">むらんち</span>の</p><p>VILLAGE</p></a>
+          <a href="#lunch"><p><span class="mulunch-font">むらんち</span>の</p><p>LUNCH</p></a>
+          <a href="#gallery"><p>フォト</p><p>ギャラリー</p></a>
+          <a href="#access" class="header-btn">ACCESS</a>
+          <a href="#join" class="header-btn">JOIN</a>
+    </nav>
+    <div class="header-flex-end">
+      <a href="#" class="sns-btn"><i class="fa fa-twitter"></i></a>
+      <a href="#" class="sns-btn"><i class="fa fa-instagram"></i></a>
+      <a href="#" class="sns-btn"><i class="fa fa-facebook"></i></a>
+    </div>
+    <a href="#join" class="bottom-join-btn">JOIN （ 参加してみよう！）</a>
+  </header>
+                      <!-- トップビジュアル -->
+  <div id="top" class="top-wrapper">
+    <div class="container">
+      <div>
+        <a href="#concept" class="scroll-btn">
+          <p>SCROLL</p>
+          <p><i class="fas fa-chevron-circle-down"></i></p>
+        </a>
+      </div>
+    </div>
+  </div>
+                       <!-- コンセプトページ -->
+  <div id="concept" class="concept-wrapper">
+    <div class="container concept-flex">
+      <div class="concept-left">
+        <div class="concept-left-margin">
+          <div>
+            <h1>初めまして、</h1>
+            <h1><span class="mulunch-font">むらんち</span>です！</h1>
+          </div>
+          <div>
+            <p>私たちは、2018年に発足した若者中</p>
+            <p>心のボランティア団体です。</p>
+            <p>”食べること”と豊かな自然や暮らしが</p>
+            <p>ある”地方のむら”が大好きで、私た</p>
+            <p>ちで何か「むらを応援する」ことがで</p>
+            <p>きないかと思い始まりました。</p>
+          </div>
+          <div>
+            <p>むらと私たち、”人”がつながる。</p>
+            <p>むらの”おいしい食”でつながる。</p>
+            <p>”楽しいこと”でつながる。</p>
+          </div>
+          <img src="image/conceptlogo2.png" alt="コンセプトページのロゴ">
+        </div>
+      </div>
+      <div class="concept-right">
+        <img src="image/conceptright-2.png" alt="コンセプトページの写真">
+      </div>
+    </div>
+  </div>
+                        <!-- 活動紹介ページ -->
+  <div id="activity" class="activity-wrapper">
+    <div class="container">
+      <div class="activity-heading">
+        <h1><span class="mulunch-font">むらんち</span>の活動</h1>
+        <p>都心からむらへ、むらから都心へ</p>
+      </div>
+      <div class="activity-description">
+        <h2>むらと私たちができることを楽しく！</h2>
+        <p>活動の大きな柱として、応援したいむらを見つけ、都心で”食の発信”をしています。</p>
+        <p>他にむらとつながりながら、田舎体験や観光などを楽しんでいます。</p> 
+      </div>
+      <div class="activity-image-up">
+        <img src="image/actimg1-5.png" alt="活動事例1">
+        <img src="image/actimg2-2.png" alt="活動事例2">
+        <img src="image/actimg3-4.png" alt="活動事例3">
+      </div>
+      <div class="activity-image-low">
+        <img src="image/actimg4-2.png" alt="活動事例4">
+        <img src="image/actimg5-2.png" alt="活動事例5">
+      </div>
+    </div>
+  </div>
+                        <!-- トピックスページ -->
+  <div id="topics" class="topics-wrapper">
+    <div class="container">
+      <div class="topics-heading">
+        <p>最新のお知らせ</p>
+        <h3>TOPICS</h3>
+      </div>
+                        <!-- スライドショー js -->
+      <div id="js-slideshow">
+        <div id="js-previous">&lt;</div>
+        <ul id="js-slides"></ul>
+        <ul id="js-slides-2" class="hidden"></ul>
+        <ul id="js-slides-3" class="hidden"></ul>
+        <div id="js-next">&gt;</div>
+      </div>
+      <ul id="js-slideshow-index">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 村紹介ページ -->
+  <div id="village" class="village-wrapper">
+    <div class="village-background"></div>
+    <div class="container">
+      <div class="villages-item">
+        <img src="image/uenomurabg1-3.png" alt="" class="villages-image">
+        <details class="drawer">
+          <summary>
+            <i class="fas fa-chevron-circle-down"></i>
+            READ MORE
+          </summary>
+          上野村（うえのむら）は、群馬県の南西部（最南端）に位置する、多野郡に存在する村。
+          群馬県で最も人口の少ない自治体かつ（平成27年6月1日現在）、
+          関東地方の島嶼部（伊豆諸島・小笠原諸島）を除いた最も人口の少ない自治体である。
+        </details>
+      </div>
+      <div class="villages-item">
+        <img src="image/oshikamurabg-2.png" alt="" class="villages-image">
+        <details class="drawer">
+          <summary>
+            <i class="fas fa-chevron-circle-down"></i>
+            READ MORE
+          </summary>
+          南アルプスと伊那山地に挟まれた山間の土地。中央構造線が村内を南北（国道沿い）に通っており、
+          天竜川の支流・小渋川が南アルプスから西流している。村の北端は分杭峠、南端は地蔵峠の難所である。
+          地蔵峠から北流する青木川と、分杭峠から南流する鹿塩川が中央構造線の谷筋に沿って流れ、
+          小渋川に流入している。
+        </details>
+      </div>
+    </div>
+    <div class="village-lunch-section"></div>
+  </div>
+
+
+  <!-- 店舗紹介ページ-->
+  <div id="lunch" class="lunch-wrapper">
+    <div class="lunch-background"></div>
+    <div class="container">
+      <img src="image/lunchimg1-2.png" alt="" class="lunch-image">
+      <img src="image/lunchimg2.png" alt="" class="lunch-image">
+      <img src="image/lunchimg3.png" alt="" class="lunch-image">
+    </div>
+  </div>
+  <!-- アクセス  gmap api--> 
+  <div id="access" class="access-wrapper">
+    <h3 class="access-heading">
+      <i class="fas fa-map-marker-alt"></i>
+      ACCESS
+    </h3>
+    <div class="container access-container">
+      <div class="access-left">
+        <div class="access-address">
+          <p>〒162-0825</p>
+          <p>東京都新宿区神楽坂6丁目19</p>
+          <p>TEL 03-6457-5597</p>
+          <p>11:30-14:30 (LO 14:00)</p>
+        </div>
+        <p class="access-statiom">最寄駅</p>
+        <div class="access-transport">
+          <ul>
+            <li>JR 飯田橋駅 西口 徒歩11分</li>
+            <li>東京メトロ 各線 飯田橋駅 B3出口 徒歩10分
+            </li>
+            <li>都営大江戸線 飯田橋駅 B3出口 徒歩10分
+            </li>
+            <li>東京メトロ東西線 神楽坂駅 出口1 徒歩3分</li>d
+            <li>都営大江戸線 牛込神楽坂駅 A3出口 徒歩6分</li>
+          </ul>
+        </div>
+      </div>
+      <div class="access-right">
+        <img src="image/access-image.png" alt="">
+        <div id="js-map"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- フォトギャラリー -->
+  <div id="gallery" class="gallery-wrapper">
+    <div class="lunch-gallery-section"></div>
+    <h3 class="gallery-heading">Photo gallery</h3>
+    <div class="gallery-flex">
+      <div id="js-previous">&lt;</div>
+      <div id="js-gallery"></div>
+      <div id="js-next">&gt;</div>
+    </div>
+  </div>
+                        <!-- 活動参加フォーム -->
+  <div id="join" class="join-wrapper">
+    <div class="container">
+      <div class="join-flex">
+        <div class="join-left">
+          <div class="join-heading">
+            <h3>JOIN</h3>
+            <p>参加してみよう！</p>
+          </div>
+          <div class="join-description">
+            <h3>「むら」をむすぼう</h3>
+            <p><span class="mulunch-font">むらんち</span>では、一緒にむらをむすぶ仲間を募集しています。</p>
+            <p>いろんな興味・関心を持ったメンバーの関わりのなかで活動がうまれています。</p>
+            <p>少しでも興味がある方はお気軽にお問い合わせくださいね！</p>
+          </div>
+        </div>
+        <img src="image/join-right-3.png" alt="">
+      </div>
+      <div class="join-flow">
+        <img src="image/join-flow1.png" alt="">
+      </div>
+
+      <form action="mailto:muramusubi.lunch@gmail.com" method="POST" enctype="text/plain" class="join-form">
+        <div class="join-form-flex">
+          <div class="join-name-email">
+            <p>お名前</p>
+            <input type="text" name="shimei" placeholder="例：むらた むらこ">
+          </div>
+          <div class="join-name-email">
+            <p>メールアドレス</p>
+            <input type="email" name="email" placeholder="mura@example.com">
+          </div>
+        </div>
+        <textarea name="" id="" cols="100" rows="10" class="join-form-body"></textarea>
+        <input type="submit" value="送信" class="form-post">
+      </form>
+    </div>
+    <div class="join-footer-section"></div>
+  </div>
+  <!-- フッター gform api?-->
+  <footer>
+    <div class="container footer-flex">
+      <div class="footer-left">
+        <a href="#" class="footer-logo">
+          <img src="image/footer-logo.png" alt="">
+        </a>
+      </div>
+      <div class="footer-right">
+        <h3><span class="mulunch-font">むらんち</span></h3>
+        <p>〒162-0825 東京都新宿区神楽坂6丁目19</p>
+        <p>TEL 03-6457-5597</p>
+        <p>11:30-14:30 (LO 14:00) 土日祝日 営業</p>
+        <small>©︎ Muramusubi</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/map.js"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQya2RJqCT-wgpDmN110G1Iq8WfE-CxG4&callback=initMap">
+  </script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
