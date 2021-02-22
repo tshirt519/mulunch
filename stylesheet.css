@@ -636,6 +636,10 @@ summary::-webkit-details-marker {
   margin: 50px auto;
 }
 
+.form-body-label {
+ margin: 50px;
+}
+
 .form-post {
   color: white;
   height: 50px;
