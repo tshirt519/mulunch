@@ -278,7 +278,7 @@ header a p {
   font-weight: bold;
 }
 
-.topics-heading h3 {
+.topics-heading h2 {
   margin: 0;
   font-size: 45px;
   font-style: italic;
@@ -589,7 +589,7 @@ summary::-webkit-details-marker {
   flex: 1;
 }
 
-.join-heading h3 {
+.join-heading h2 {
   color: #fff;
   font-size: 60px;
   font-style: italic;
@@ -633,7 +633,7 @@ summary::-webkit-details-marker {
 .join-form-body {
   width: 80%;
   display: block;
-  margin: ５0px auto;
+  margin: 100px auto;
 }
 
 .form-post {
