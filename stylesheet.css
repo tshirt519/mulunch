@@ -627,6 +627,7 @@ summary::-webkit-details-marker {
 
 .join-name-email {
   display: block;
+}
 
 .join-name-email input {
   height: 50px;
