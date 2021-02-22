@@ -616,7 +616,6 @@ summary::-webkit-details-marker {
 }
 
 .join-form {
- 
   width: 1000px;
   margin: 50px auto;
 }
@@ -625,6 +624,9 @@ summary::-webkit-details-marker {
   display: flex;
   justify-content: space-evenly;
 }
+
+.join-name-email {
+  display: block;
 
 .join-name-email input {
   height: 50px;
