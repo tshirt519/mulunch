@@ -637,7 +637,7 @@ summary::-webkit-details-marker {
 }
 
 .form-body-label {
- margin: 50px;
+ margin-left: 50px;
 }
 
 .form-post {
