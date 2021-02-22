@@ -616,9 +616,9 @@ summary::-webkit-details-marker {
 }
 
 .join-form {
+ 
   width: 1000px;
-  margin: 0 auto;
-
+  margin: 50px auto;
 }
 
 .join-form-flex {
