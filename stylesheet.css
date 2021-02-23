@@ -519,7 +519,6 @@ summary::-webkit-details-marker {
 
 /* フォトギャラリー */
 .gallery-wrapper {
-  /* padding: 10% 0 5% 0; */
   height: 600px;
   background-image: url(https://tshirt519.github.io/mulunch/gbg-7.png);
   background-size: cover;
@@ -625,9 +624,9 @@ summary::-webkit-details-marker {
   justify-content: space-evenly;
 }
 
-.join-name-email {
+/* .join-name-email {
   display: block;
-}
+} */
 
 .join-name-email input {
   height: 50px;
