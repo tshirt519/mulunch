@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>むらんち</title>
   <meta content="食や地方について楽しく学べるコミュニティ、むらんちです。みんなで楽しみながら、村の役に立てるような団体を目指しています。">
-  <link rel="stylesheet" href="https://tshirt519.github.io/mulunch/stylesheet.css"/>
-  <link rel="stylesheet" href="https://tshirt519.github.io/mulunch/responsive.css">
+  <!-- <link rel="stylesheet" href="https://tshirt519.github.io/mulunch/stylesheet.css"/> -->
+  <!-- <link rel="stylesheet" href="https://tshirt519.github.io/mulunch/responsive.css"> -->
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="css/responsive.css">
+
   <script src="https://kit.fontawesome.com/e7ff59a212.js" crossorigin="anonymous"></script>
 </head>
 <body>  
@@ -16,12 +19,12 @@
           <a href="#top" class="header-logo">
             <img src=https://tshirt519.github.io/mulunch/mulunchlogo2.png alt="ヘッダーのロゴ">
           </a>
-          <a href="#concept" class="header-align">コンセプト</a>
-          <a href="#activity"><p><span class="mulunch-font">むらんち</span></p><p>の活動</p></a>
-          <a href="#topics" class="header-align">トピックス</a>
-          <a href="#village"><p><span class="mulunch-font">むらんち</span>の</p><p>VILLAGE</p></a>
-          <a href="#lunch"><p><span class="mulunch-font">むらんち</span>の</p><p>LUNCH</p></a>
-          <a href="#gallery"><p>フォト</p><p>ギャラリー</p></a>
+          <a href="#concept" class="responsive-hidden">コンセプト</a>
+          <a href="#activity" class="responsive-hidden"><p><span class="mulunch-font">むらんち</span></p><p>の活動</p></a>
+          <a href="#topics" class="responsive-hidden">トピックス</a>
+          <a href="#village" class="responsive-hidden"><p><span class="mulunch-font">むらんち</span>の</p><p>VILLAGE</p></a>
+          <a href="#lunch" class="responsive-hidden"><p><span class="mulunch-font">むらんち</span>の</p><p>LUNCH</p></a>
+          <a href="#gallery" class="responsive-hidden"><p>フォト</p><p>ギャラリー</p></a>
           <a href="#access" class="header-btn">ACCESS</a>
           <a href="#join" class="header-btn">JOIN</a>
     </nav>
@@ -50,8 +53,8 @@
         <div class="concept-left">
           <div class="concept-left-margin">
             <div>
-              <h1>初めまして、</h1>
-              <h1><span class="mulunch-font">むらんち</span>です！</h1>
+              <h1><span class="mulunch-font">初めまして、</span></h1>
+              <h1><span class="mulunch-font">むらんちです！</span></h1>
             </div>
             <div>
               <p>私たちは、2018年に発足した若者中</p>
@@ -78,7 +81,7 @@
     <section id="activity" class="activity-wrapper">
       <div class="container">
         <div class="activity-heading">
-          <h1><span class="mulunch-font">むらんち</span>の活動</h1>
+          <h1><span class="mulunch-font">むらんちの活動</span></h1>
           <p>都心からむらへ、むらから都心へ</p>
         </div>
         <div class="activity-description">
@@ -150,8 +153,8 @@
           </details>
         </div>
       </div>
+      <div class="village-lunch-section"></div>
     </section>
-    <div class="village-lunch-section"></div>
 
     <!-- 店舗紹介ページ-->
     <section id="lunch" class="lunch-wrapper">
@@ -177,7 +180,7 @@
             <p>TEL 03-6457-5597</p>
             <p>11:30-14:30 (LO 14:00)</p>
           </div>
-          <p class="access-statiom">最寄駅</p>
+          <p class="access-station">最寄駅</p>
           <div class="access-transport">
             <ul>
               <li>JR 飯田橋駅 西口 徒歩11分</li>
@@ -231,14 +234,14 @@
 
         <form action="mailto:muramusubi.lunch@gmail.com" method="POST" enctype="text/plain" class="join-form">
           <div class="join-form-flex">
-            <div class="join-name-email">
+            <p class="join-name-email">
               <label for="shimei">お名前</label>
               <input type="text" name="shimei" placeholder="例：むらた むらこ">
-            </div>
-            <div class="join-name-email">
+            </p>
+            <p class="join-name-email">
               <label for="email">メールアドレス</label>
               <input type="email" name="email" placeholder="mura@example.com">
-            </div>
+            </p>
           </div>
           <div>
               <textarea name="" id="" cols="100" rows="10" placeholder="お問い合わせ内容をご記入ください" class="join-form-body"></textarea>          
