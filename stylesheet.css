@@ -3,13 +3,13 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: "Hiragino Kaku Gothic ProN";
   user-select: none;
 }
 
 .container {
-  max-width: 100%;
+  max-width: 1170px;
   width: 100%;
   height: 100%;
   padding: 0 15px;
@@ -19,6 +19,7 @@ body {
 .mulunch-font {
   font-family: 'Tsukushi B Round Gothic'; font-weight: bold;
 }
+
 /* トップページ */
 
 header {
@@ -617,6 +618,11 @@ summary::-webkit-details-marker {
 .join-form {
   margin: 50px auto;
   display: block;
+}
+
+.join-form-flex {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .join-name-email input {
