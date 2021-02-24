@@ -364,7 +364,7 @@ header a p {
 
 .village-wrapper {
   background: #e1ddcb;
-  padding: 0 0 5% 0;
+  padding: 0;
 }
 
 .village-background {
@@ -384,14 +384,13 @@ header a p {
 }
 
 .drawer {
-  margin: 0 auto;
+  margin: 0 auto 10px;
   width: 60%;
   background-color: #F7F5F1;
   padding: 10px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   color: #6e6d6e;
-
 }
 
 .drawer summary {
@@ -419,7 +418,7 @@ summary::-webkit-details-marker {
 /* 店舗紹介ページ */
 
 .lunch-wrapper {
-  padding: 0 0 5% 0;
+  padding: 0;
   background: #F7EEE6;
 }
 
@@ -480,7 +479,7 @@ summary::-webkit-details-marker {
   letter-spacing: 0.1em;
 }
 
-.access-statiom {
+.access-station {
   width: 100px;
   text-align: center;
   background-color: #6e6d6e;
@@ -617,17 +616,26 @@ summary::-webkit-details-marker {
 
 .join-form {
   margin: 50px auto;
-  display: block;
 }
 
 .join-form-flex {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.join-name-email {
+  flex: 1;
+}
+
+.join-name-email label {  
+  display: block;
 }
 
 .join-name-email input {
   height: 50px;
-  width: 300px; 
+  width: 60%; 
+  display: block;
+  margin: 0 auto;
 }
 
 .join-form-body {
