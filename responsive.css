@@ -1,8 +1,472 @@
 
+@media (max-width: 640px) {
+
+  .responsive-hidden {
+    display: none;
+  }
+  .container {
+    max-width: 640px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .mulunch-font {
+    font-family: 'Tsukushi B Round Gothic'; font-weight: bold;
+  }
+  
+  /* トップページ */
+  
+  header {
+    height: 75px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .header-logo img {
+    width: 30%;
+  }
+
+  .header-btn {
+    display: none;
+  }
+  
+  .header-flex-end a {
+    display: block;
+  }
+
+  .sns-btn {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 5px;
+    font-size: 12px;
+  }
+  
+  .bottom-join-btn {
+    display: none;
+  }
+  
+  .top-wrapper {
+    min-height: 100vh;
+  }
+  
+  .scroll-btn {
+    position: absolute;
+    top: 70%;
+    left: 44%;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  /* コンセプトページ */
+  
+  .concept-wrapper {
+    padding: 10% 0 20%;
+  }
+  
+  .concept-flex {
+    display: block;
+  }
+  
+  .concept-left {
+    flex: none;
+    color: #6e6d6e;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+  }
+  
+  .concept-left img {
+    display: none;
+  }
+  
+  .concept-left-margin {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .concept-left-margin h1 {
+    margin: 0;
+    font-size: 40px;
+  }
+  
+  .concept-left-margin h1:nth-last-of-type(1) {
+    margin: 15px 0 0 0;
+  }
+  
+  .concept-left-margin div {
+    margin: 0 0 50px 0;
+  }
+  
+  .concept-left-margin div:nth-last-of-type(1) {
+    margin: 0 0 50px 0;
+  }
+  
+  .concept-left-margin p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  
+  .concept-left-margin div:nth-last-of-type(1) {
+    margin-left: 0px;
+  }
+  
+  .concept-right {
+    flex: none;
+  }
+  
+  .concept-right img {
+    width: 100%;
+  }
+  
+  /* 活動紹介ページ */
+  
+  .activity-wrapper {
+    padding: 10% 0;
+    letter-spacing: 0.01em;
+  }
+  
+  .activity-heading {
+    display: block;
+    margin: 0 5%;
+    text-align: center;
+  }
+  
+  .activity-heading h1 {
+    margin: 5%;
+    font-size: 40px;
+  }
+  
+  .activity-heading p {
+    letter-spacing: 0.01em;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 5%;
+    padding: 0 0 2.5% 0;
+    border-bottom: 1px solid #6e6d6e;
+  }
+  
+  .activity-description {
+    margin: 5% 10% 10%;
+    text-align: center;
+  }
+
+  .activity-description h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .activity-description p {
+    letter-spacing: 0.01em;
+    font-size: 12px;
+  }
+  
+  .activity-image-up {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .activity-image-up img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .activity-image-up img:nth-child(2) {
+    margin-top: 0px;
+  }
+  
+  .activity-image-low {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .activity-image-low img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .activity-image-low img:nth-child(2) {
+    margin-top: 0;
+  }
+  
+  /* トピックスページ */
+  
+  .topics-wrapper {
+    padding: 20% 0 0;
+    color: #6e6d6e;
+    text-align: center;
+  }
+  
+  .topics-heading p {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  .topics-heading h2 {
+    font-size: 40px;
+    letter-spacing: 0.01em;
+  }
+  
+  /* スライドショー */
+
+  #js-previous,
+  #js-next {
+    display: none;
+  }
+  
+  #js-slides {
+    width: 100%;
+  }
+  
+  #js-slides li {
+    width: 100%;
+  }
+  
+  #js-slides li p {
+    font-size: 10px;
+  }
+
+  #js-slideshow-index li {
+    width: 5px;
+    height: 5px;
+    text-align: center;
+  }
+  
+  /* 村紹介ページ */
+  
+  .village-background {
+    min-height: 100vh;
+  }
+  
+  .villages-item {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .villages-image {
+    width: 100%;  
+  }
+  
+  .drawer {
+    font-size: 12px;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  .drawer summary i {
+   font-size: 16px;
+  }
+
+  .village-lunch-section {
+    height: 100px;
+  }
+  
+  /* 店舗紹介ページ */
+  
+  .lunch-background {
+    min-height: 100vh;
+  }
+  
+  /* アクセスページ */
+
+  .access-container {
+    display: block;
+    border: none;
+    border-top: 5px solid #fff;
+  }
+  
+  .access-heading {
+    margin: 0 auto -50px;
+  }
+  
+  .access-left {
+    flex: none;
+    text-align: center;
+    margin:  20% auto 0;
+    font-weight: normal;
+  }
+  
+  .access-left  div {
+    margin: 5% auto;
+  }
+
+  .access-address p {
+    font-size: 14px;
+  }
+  
+  .access-station {
+    margin: 0 auto;
+  }
+  
+  .access-transport {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .access-transport ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .access-right {
+    flex: none;
+    margin: 10% 0 0;
+  }
+  
+  .access-right img {
+    display: none;
+  }
+  
+  /* google マップ*/
+  #js-map {
+    height: 300px;
+    margin-bottom: 0;
+  }
+  
+  .lunch-gallery-section {
+    height: 100px;
+  }
+  
+  /* フォトギャラリー */
+
+  .gallery-wrapper {
+    height: 400px;
+    margin: 0 0 20% 0;
+    background-image: none;
+  }
+  
+  .gallery-heading {
+    font-size: 40px;
+    margin: 10% 0 0;
+  }
+  
+  #js-gallery {
+    width: 100%;
+  }
+  
+  #js-gallery li {
+    width: 30%;
+    text-align: center;
+    margin: 5%;
+  }
+  
+  #js-gallery img {
+    width: 100%;
+    z-index: -1;
+    margin: 0 0 -10%;
+  }
+  
+  #js-gallery p {
+    font-size: 12px;
+    color: #6e6d6e;
+    text-shadow: none
+  }
+  
+  /* 活動募集ページ */
+  
+  .join-wrapper {
+    padding: 10% 0 0 0;
+    text-align: center;
+  }
+  
+  .join-flex {
+    display: block;
+  }
+  
+  .join-flex div {
+    flex: none;
+  }
+  
+  .join-flex img {
+    display: none;
+  }
+  
+  .join-heading {
+    display: block;
+    flex: none;
+  }
+  
+  .join-heading h2 {
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    margin: 0 5% 5%;
+  }
+  
+  .join-heading p {
+    font-weight: normal;
+    font-size: 12px;
+    margin: auto 10%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #6e6d6e;
+  }
+  
+  .join-description h3 {
+    letter-spacing: 0.01em;
+    font-size: 16px;
+  }
+  
+  .join-description p {
+    font-size: 12px;
+  }
+  
+  .join-form-flex {
+    display: block;
+  }
+  
+  .join-name-email input {
+    height: 50px;
+    width: 300px; 
+  }
+  
+  .join-form-body {
+    margin: 10% auto;
+  }
+  
+  .join-footer-section {
+    height: 100px;
+  }
+  
+  /* フッター */
+  
+  .footer-flex {
+    display: block;
+    text-align: center;
+    padding: 0 0 10%;
+  }
+  
+  .footer-logo {
+    display: none;
+  }
+  
+  .footer-right h3 {
+    margin: 0 0 5%;
+  }
+  
+  .footer-right p {
+    font-size: 12px;
+  }
+  
+}
+
+@media (max-width: 768px) {
+
+}
+
 @media (max-width: 1024px) {
 
 }
 
-@media (max-width: 599px) {
+@media (max-width: 1200px) {
 
 }
