@@ -102,8 +102,8 @@
   
   .overlay #close {
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 22px;
+    right: 31px;
     font-size: 32px;
     cursor: pointer;
   }
