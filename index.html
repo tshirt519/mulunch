@@ -16,7 +16,7 @@
                       <!-- ヘッダー -->
   <header>
     <nav class="container header-flex">
-          <a href="#top" class="header-logo">
+          <a href="#" class="header-logo">
             <img src=https://tshirt519.github.io/mulunch/mulunchlogo2.png alt="ヘッダーのロゴ">
           </a>
           <a href="#concept" class="responsive-hidden">コンセプト</a>
@@ -27,14 +27,35 @@
           <a href="#gallery" class="responsive-hidden"><p>フォト</p><p>ギャラリー</p></a>
           <a href="#access" class="header-btn">ACCESS</a>
           <a href="#join" class="header-btn">JOIN</a>
+          <a href="#" class="bar-btn"><i class="fas fa-bars" id="open"></i></a>
     </nav>
+
+    <div class="overlay">
+      <i class="far fa-window-close bar-btn-close" id="close"></i>
+      <nav>
+        <ul>
+          <li><a href="#concept">コンセプト</a></li>
+          <li><a href="#activity">むらんちの活動</a></li>
+          <li><a href="#topics">トピックス</a></li>
+          <li><a href="#village">むらんちのVILLAGE
+          </a></li>
+          <li><a href="#lunch">むらんちのLUNCH</a></li>
+          <li><a href="#gallery">フォトギャラリー</a></li>
+          <li><a href="#access">ACCESS</a></li>
+          <li><a href="#join">JOIN</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="header-flex-end">
-      <a href="#" class="sns-btn"><i class="fa fa-twitter"></i></a>
-      <a href="#" class="sns-btn"><i class="fa fa-instagram"></i></a>
-      <a href="#" class="sns-btn"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/muramusubi/" class="sns-btn"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/muramusubi/" class="sns-btn"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.facebook.com/muramusubi/" class="sns-btn"><i class="fa fa-facebook"></i></a>
     </div>
     <a href="#join" class="bottom-join-btn">JOIN （ 参加してみよう！）</a>
+
   </header>
+
   <main>
                           <!-- トップビジュアル -->
     <section id="top" class="top-wrapper">
@@ -262,9 +283,9 @@
         </a>
       </div>
       <div class="footer-center">
-        <a href="#" class="sns-btn"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="sns-btn"><i class="fa fa-instagram"></i></a>
-        <a href="#" class="sns-btn"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/muramusubi/" class="sns-btn"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/muramusubi/" class="sns-btn"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/muramusubi/" class="sns-btn"><i class="fa fa-facebook"></i></a>
       </div>
       <div class="footer-right">
         <h3><span class="mulunch-font">むらんち</span></h3>
@@ -282,5 +303,6 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQya2RJqCT-wgpDmN110G1Iq8WfE-CxG4&callback=initMap">
   </script>
   <script src="https://tshirt519.github.io/mulunch/gallery.js"></script>
+  <script src="js/menu.js"></script>
 </body>
 </html>
