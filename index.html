@@ -7,6 +7,9 @@
   <meta content="食や地方について楽しく学べるコミュニティ、むらんちです。みんなで楽しみながら、村の役に立てるような団体を目指しています。">
   <link rel="stylesheet" href="https://tshirt519.github.io/mulunch/stylesheet.css"/>
   <link rel="stylesheet" href="https://tshirt519.github.io/mulunch/responsive.css">
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="css/responsive.css">
+
   <script src="https://kit.fontawesome.com/e7ff59a212.js" crossorigin="anonymous"></script>
 </head>
 <body>  
@@ -129,13 +132,11 @@
         <div id="js-slideshow">
           <div id="js-previous">&lt;</div>
           <ul id="js-slides"></ul>
-          <ul id="js-slides-2" class="hidden"></ul>
-          <ul id="js-slides-3" class="hidden"></ul>
+          <!-- <ul id="js-slides-2" class="hidden"></ul>
+          <ul id="js-slides-3" class="hidden"></ul> -->
           <div id="js-next">&gt;</div>
         </div>
         <ul id="js-slideshow-index">
-          <li></li>
-          <li></li>
           <li></li>
         </ul>
       </div>
@@ -144,6 +145,9 @@
     <!-- 村紹介ページ -->
     <section id="village" class="village-wrapper">
       <div class="village-background"></div>
+      <div class="sp-village">
+        <img src="/Users/tshirt/Documents/mulunchlp-2/image/sp-village-1.png" alt="スマートフォン用の村イメージ">
+      </div>
       <div class="container">
         <div class="villages-item">
           <img src="https://tshirt519.github.io/mulunch/uenomurabg1-3.png" alt="上野村の風景" class="villages-image">
@@ -177,6 +181,9 @@
     <!-- 店舗紹介ページ-->
     <section id="lunch" class="lunch-wrapper">
       <div class="lunch-background"></div>
+      <div class="sp-lunch">
+        <img src="/Users/tshirt/Documents/mulunchlp-2/image/sp-lunch-1.png" alt="スマートフォン用の店イメージ">
+      </div>
       <div class="container">
         <img src="https://tshirt519.github.io/mulunch/lunchimg1-2.png" alt="定食のイメージ1" class="lunch-image">
         <img src="https://tshirt519.github.io/mulunch/lunchimg2.png" alt="定食のイメージ2" class="lunch-image">
@@ -214,6 +221,9 @@
         <div class="access-right">
           <img src="https://tshirt519.github.io/mulunch/access-image.png" alt="アクセスページの装飾">
           <div id="js-map"></div>
+          <div class="sp-gmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.93687091488!2d139.7345646156244!3d35.70317108018913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c5736aef4ab%3A0xf2e4e97838ffcb76!2z44KA44KJ44KA44GZ44Gz!5e0!3m2!1sja!2sjp!4v1615879801737!5m2!1sja!2sjp"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
         </div>
       </div>
     </section>
@@ -252,17 +262,15 @@
 
         <form action="mailto:muramusubi.lunch@gmail.com" method="POST" enctype="text/plain" class="join-form">
           <div class="join-form-flex">
-            <p class="join-name-email">
-              <label for="shimei">お名前</label>
-              <input type="text" name="shimei" placeholder="例：むらた むらこ">
-            </p>
-            <p class="join-name-email">
-              <label for="email">メールアドレス</label>
-              <input type="email" name="email" placeholder="mura@example.com">
-            </p>
+              <div class="join-name-email">
+                <input type="text" name="shimei" placeholder="お名前">
+              </div>
+              <div class="join-name-email">
+                <input type="email" name="email" placeholder="メールアドレス">
+              </div>
           </div>
           <div>
-              <textarea name="" id="" cols="100" rows="10" placeholder="お問い合わせ内容をご記入ください" class="join-form-body"></textarea>          
+              <textarea name="contact" cols="100" rows="10" placeholder="お問い合わせ内容" class="join-form-body"></textarea>          
           </div>
           <input type="submit" value="送信" class="form-post">
         </form>
@@ -294,12 +302,12 @@
     </div>
   </footer>
 
-  <script src="https://tshirt519.github.io/mulunch/main.js"></script>
+  <script src="https://tshirt519.github.io/mulunch/slide.js"></script>
   <script src="https://tshirt519.github.io/mulunch/map.js"></script>
   <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQya2RJqCT-wgpDmN110G1Iq8WfE-CxG4&callback=initMap">
   </script>
   <script src="https://tshirt519.github.io/mulunch/gallery.js"></script>
-  <script src="https://tshirt519.github.io/mulunch/menu.js"></script>
+  <script src="js/menu.js"></script>
 </body>
 </html>
