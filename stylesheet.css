@@ -20,7 +20,7 @@
     font-family: 'Tsukushi B Round Gothic'; font-weight: bold;
   }
 
-  /* トップページ */
+  /* ============================= トップページ ============================= */
 
   header {
     height: 100px;
@@ -71,7 +71,7 @@
     font-weight: normal;
   }
 
-  /* レスポンシブヘッダー */
+  /* ============================= レスポンシブ用のヘッダー ============================= */
 
   .bar-btn {
     display: none;
@@ -160,7 +160,7 @@
     transition-delay: .8s;
   }
 
-  /* SNSヘッダー */
+  /* ============================= SNSヘッダー ============================= */
 
   .header-flex-end {
     display: flex;
@@ -182,23 +182,9 @@
 
   .bottom-join-btn {
     display: none;
-    /* color: white;
-    background: #de9044;
-    margin: 0;
-    padding: 15px 50px;
-    border-radius: 50px;
-    font-weight: normal;
-    position: fixed;
-    bottom: 1%;
-    left: 41%;
-    text-decoration: none;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); */
   }
 
-  /* .bottom-join-btn:hover {
-    filter: brightness(110%);
-    opacity: 1;
-  } */
+
 
   .top-wrapper {
     min-height: 1100px;
@@ -225,7 +211,7 @@
     margin: 0;  
   }
 
-  /* コンセプトページ */
+  /* ============================= コンセプトページ ============================= */
 
   .concept-wrapper {
     padding: 10% 0;
@@ -285,7 +271,7 @@
     width: 100%;
   }
 
-  /* 活動紹介ページ */
+  /* ============================= 活動紹介ページ ============================= */
 
   .activity-wrapper {
     padding: 10% 0 5% 0;
@@ -357,7 +343,7 @@
     margin-top: 50px;
   }
 
-  /* トピックスページ */
+  /* ============================= トピックスページ ============================= */
 
   .topics-wrapper {
     padding: 10% 0 0 0;
@@ -378,7 +364,7 @@
     letter-spacing: 0.1em;
   }
 
-  /* スライドショー */
+  /* ============================= スライドショー ============================= */
 
   #js-slideshow {
     display: flex;
@@ -452,7 +438,7 @@
     display: none;
   }
 
-  /* 村紹介ページ */
+  /* ============================= 村紹介ページ ============================= */
 
   .village-wrapper {
     background: #e1ddcb;
@@ -516,7 +502,7 @@
     background-position: center center;
   }
 
-  /* 店舗紹介ページ */
+  /* ============================= 店舗紹介ページ ============================= */
 
   .lunch-wrapper {
     padding: 0;
@@ -542,7 +528,7 @@
     width: 100%;
   }
 
-  /* アクセスページ */
+  /* ============================= アクセスページ ============================= */
   .access-wrapper {
     background: #F7EEE6;
     padding: 10% 0 0 0;
@@ -612,7 +598,7 @@
     margin: -150px 0 0 150px;
   }
 
-  /* google マップ*/
+  /* ============================= google マップ ============================= */
   
   #js-map {
     height: 400px;
@@ -631,7 +617,7 @@
     background-position: center center; 
   }
 
-  /* フォトギャラリー */
+  /* ============================= フォトギャラリー  ============================= */
   .gallery-wrapper {
     height: 600px;
     background-image: url(https://tshirt519.github.io/mulunch/gbg-7.png);
@@ -677,7 +663,7 @@
     text-shadow: 4px 4px 4px #000;
   }
 
-  /* 活動募集ページ */
+  /* ============================= 活動募集ページ ============================= */
 
   .join-wrapper {
     padding: 10% 0 0 0;
@@ -778,7 +764,7 @@
     background-position: center center;  
   }
 
-  /* フッター */
+  /* ============================= フッター ============================= */
 
   .footer-flex {
     display: flex;
