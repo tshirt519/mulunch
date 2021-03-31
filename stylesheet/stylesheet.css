@@ -188,7 +188,7 @@
 
   .top-wrapper {
     min-height: 1100px;
-    background: url(https://tshirt519.github.io/mulunch/TV6.jpg);
+    background: url(https://tshirt519.github.io/mulunch/img/TV6.jpg);
     background-size: cover;
     background-position: center center;
     color: white;
@@ -447,7 +447,7 @@
 
   .village-background {
     min-height: 1000px;
-    background-image: url(https://tshirt519.github.io/mulunch/vbg-2.png);
+    background-image: url(https://tshirt519.github.io/mulunch/img/vbg-2.png);
     background-size: cover;
     background-position: center center;
     padding: 50px 0;
@@ -497,7 +497,7 @@
 
   .village-lunch-section {
     height: 300px;
-    background-image: url(https://tshirt519.github.io/mulunch/village-lunch-section3.png);
+    background-image: url(https://tshirt519.github.io/mulunch/img/village-lunch-section3.png);
     background-size: cover;
     background-position: center center;
   }
@@ -519,7 +519,7 @@
 
   .lunch-background {
     min-height: 900px;
-    background-image: url(https://tshirt519.github.io/mulunch/lunchbg-4.png);
+    background-image: url(https://tshirt519.github.io/mulunch/img/lunchbg-4.png);
     background-size: cover;
     background-position: center center;
   }
@@ -612,7 +612,7 @@
 
   .lunch-gallery-section {
     height: 200px;
-    background-image: url(https://tshirt519.github.io/mulunch/gallerysection-2.png);
+    background-image: url(https://tshirt519.github.io/mulunch/img/gallerysection-2.png);
     background-size: cover;
     background-position: center center; 
   }
@@ -620,7 +620,7 @@
   /* ============================= フォトギャラリー  ============================= */
   .gallery-wrapper {
     height: 600px;
-    background-image: url(https://tshirt519.github.io/mulunch/gbg-7.png);
+    background-image: url(https://tshirt519.github.io/mulunch/img/gbg-7.png);
     background-size: cover;
     background-position: center center; 
   }
@@ -759,7 +759,7 @@
 
   .join-footer-section {
     height: 200px;
-    background-image: url(https://tshirt519.github.io/mulunch/jf-section3.png);
+    background-image: url(https://tshirt519.github.io/mulunch/img/jf-section3.png);
     background-size: cover;
     background-position: center center;  
   }
