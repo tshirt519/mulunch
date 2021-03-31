@@ -1,9 +1,9 @@
 'use strict';
 {
   let images = [
-    {url: 'https://tshirt519.github.io/mulunch/gallery3.png', text: '# 友人からのフィードバック# みんなで楽しく試食会',},
-    {url: 'https://tshirt519.github.io/mulunch/gallery1.png', text: '# 上野村で農業体験 #いっぱいカブが採れた！',},
-    {url: 'https://tshirt519.github.io/mulunch/gallery2.png', text: '# むらんちのオニギリおいしい # 常連さんと一緒',},
+    {url: 'https://tshirt519.github.io/mulunch/img/gallery3.png', text: '# 友人からのフィードバック# みんなで楽しく試食会',},
+    {url: 'https://tshirt519.github.io/mulunch/img/gallery1.png', text: '# 上野村で農業体験 #いっぱいカブが採れた！',},
+    {url: 'https://tshirt519.github.io/mulunch/img/gallery2.png', text: '# むらんちのオニギリおいしい # 常連さんと一緒',},
   ];
   
   let currentNum = 0;
