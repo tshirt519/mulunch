@@ -1,10 +1,10 @@
 'use strict';
 {
   let images = [
-    {url: 'https://tshirt519.github.io/mulunch/slide1.png', text: 'むらんちメンバーによるランチプロジェクト始動！',},
-    {url: 'https://tshirt519.github.io/mulunch/slide2.png', text: '[上野村視察] 大きな自然とおいしい食べ物！',},
-    {url: 'https://tshirt519.github.io/mulunch/slide3.png', text: '[レセプション] 実際に出すメニューをご用意！',},
-    {url: 'https://tshirt519.github.io/mulunch/slide4.png', text: 'いよいよ本日オープンです！',},
+    {url: 'https://tshirt519.github.io/mulunch/img/slide1.png', text: 'むらんちメンバーによるランチプロジェクト始動！',},
+    {url: 'https://tshirt519.github.io/mulunch/img/slide2.png', text: '[上野村視察] 大きな自然とおいしい食べ物！',},
+    {url: 'https://tshirt519.github.io/mulunch/img/slide3.png', text: '[レセプション] 実際に出すメニューをご用意！',},
+    {url: 'https://tshirt519.github.io/mulunch/img/slide4.png', text: 'いよいよ本日オープンです！',},
   ];
   
   let currentNum = 0;
