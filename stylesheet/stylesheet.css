@@ -106,7 +106,7 @@
     user-select: none;    
     color: #6e6d6e;
     top: 20px;
-    right: 50px;
+    right: 45px;
     font-size: 40px;
   }
   
@@ -185,8 +185,6 @@
   .bottom-join-btn {
     display: none;
   }
-
-
 
   .top-wrapper {
     min-height: 1100px;
