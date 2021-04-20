@@ -71,6 +71,7 @@
     display: block;
     flex: 1;
     text-align: end;
+    cursor: pointer;
   }
 
   .fa-bars {
@@ -79,6 +80,7 @@
     top: 20px;
     right: 55px;
     font-size: 30px;
+    cursor: pointer;
   }
 
   .header-btn {
@@ -104,6 +106,7 @@
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     font-size: 14px;
+    cursor: pointer;
   }
   
   /* ============================= ipadproコンセプトページ ============================= */
@@ -586,6 +589,7 @@
     display: block;
     flex: 1;
     text-align: end;
+    cursor: pointer;
   }
 
   .fa-bars {
@@ -594,6 +598,7 @@
     top: 20px;
     right: 55px;
     font-size: 40px;
+    cursor: pointer;
   }
 
   .header-btn {
@@ -620,6 +625,7 @@
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     font-size: 14px;
+    cursor: pointer;
   }
   
   /* ============================= ipadコンセプトページ ============================= */
@@ -1102,6 +1108,7 @@
     display: block;
     flex: 1;
     text-align: end;
+    cursor: pointer;
   }
 
   .fa-bars {
@@ -1110,6 +1117,7 @@
     top: 20px;
     right: 55px;
     font-size: 40px;
+    cursor: pointer;
   }
 
   .header-btn {
@@ -1136,6 +1144,7 @@
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     font-size: 12px;
+    cursor: pointer;
   }
   
   /* ============================= iphoneコンセプトページ ============================= */
