@@ -74,10 +74,11 @@
   }
 
   .fa-bars {
-    user-select: none;
-    padding: 10px;
+    user-select: none;    
     color: #6e6d6e;
-    font-size: 30px;
+    top: 20px;
+    right: 55px;
+    font-size: 40px;
   }
 
   .header-btn {
@@ -588,10 +589,11 @@
   }
 
   .fa-bars {
-    user-select: none;
-    padding: 10px;
+    user-select: none;    
     color: #6e6d6e;
-    font-size: 30px;
+    top: 20px;
+    right: 55px;
+    font-size: 40px;
   }
 
   .header-btn {
@@ -1103,10 +1105,11 @@
   }
 
   .fa-bars {
-    user-select: none;
-    padding: 10px;
+    user-select: none;    
     color: #6e6d6e;
-    font-size: 20px;
+    top: 20px;
+    right: 55px;
+    font-size: 40px;
   }
 
   .header-btn {
