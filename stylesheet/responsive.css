@@ -1083,7 +1083,7 @@
   
   header {
     position: fixed;
-    height: 50px;
+    height: 75px;
     width: 100%;
     top: 0;
     left: 0;
@@ -1101,7 +1101,7 @@
   }
 
   .header-logo img {
-    width: 30%;
+    width: 40%;
   }
 
   .bar-btn {
@@ -1116,8 +1116,9 @@
     color: #6e6d6e;
     top: 20px;
     right: 55px;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
+    padding-right: 19px;
   }
 
   .header-btn {
@@ -1133,7 +1134,7 @@
   }
   
   .top-wrapper {
-    margin: 50px 0 0 0;
+    margin: 75px 0 0 0;
     min-height: 100vh;
   }
   
